@@ -76,15 +76,15 @@
           <div class="content">
             <div class="header">Operators</div>
             Plus, minus, divide, multiply:
-            <code>+ - / *</code> 
+            <code>+ - / *</code>
             Equal to,
-            <code>==</code> 
+            <code>==</code>
             Equal to and of the same type (use this one):
-            <code>===</code> 
+            <code>===</code>
             Inequality
-            <code>!=</code> 
+            <code>!=</code>
             Strict Inequality (use this one)
-            <code>!==</code> 
+            <code>!==</code>
             Less than, greater than, less than or equal, greater than or equal:
             <code>< > <= >=</code>
             Or:
@@ -98,7 +98,7 @@
           <div class="content">
             <div class="header">Data Types</div>
             Strings are in single or double quotes:
-            <code>let name = "Vincent";</code>
+            <code>let name = "Bob Smith";</code>
             Numbers are not in quotes, you can do math with them.
             <code>let myAge = 33;</code>
             <code>let myAgeLaterThisYear = myAge + 1;</code>
@@ -142,7 +142,7 @@ let hotSauce = {
         <div class="ui raised card">
             <div class="content">
               <div class="header">Control flow</div>
-              In an if/else statement, the first block with a true condition will run 
+              In an if/else statement, the first block with a true condition will run
               <pre>
                 <code>
 if (someCondition) {
@@ -172,8 +172,8 @@ function doSomeThings(){
           </pre> With a parameter
             <pre>
               <code>
-function isVincentsEmail(email){
-  return email === 'trivett@gmail.com';
+function isBobSmithsEmail(email){
+  return email === 'bobsmith@gmail.com';
 }
             </code>
           </pre>
@@ -184,8 +184,9 @@ function isVincentsEmail(email){
               <code>
 doSomeThings();
 
-const checkWrongEmail = isVincentsEmail('trivett@hotmail.com'); // false
-const checkRightEmail = isVincentsEmail('trivett@gmail.com'); // true
+const checkWrongEmail = isBobSmithsEmail('bobsmith@hotmail.com'); // false
+const checkRightEmail = isBobSmithsEmail('bobsmith@gmail.com'); // true
+const checkRightEmail = isBobSmithsEmail('bobiscool@gmail.com'); // false
               </code>
             </pre>
 
