@@ -15,7 +15,7 @@ p, li {
 
 body {
   background: url('abstract-mosaic-background.png') no-repeat center center fixed;
-  background-size: cover; 
+  background-size: cover;
 }
 
 .wrapper {
@@ -101,7 +101,7 @@ function clearInputsAndWarnings() {
 }
 
 function showAnswersAndWarnings(c){
-  
+
   $("#answer").html(c);
   if (c >= 100){
     $("#boiling-warning").fadeIn();
@@ -184,7 +184,7 @@ function myStarWarsName(firstName, lastName, street, city) {
   return `${swFirstName} ${swLastName}`;
 }
 
-console.log(myStarWarsName('Vincent', 'Trivett' 'Dupont', 'Brooklyn'))
+console.log(myStarWarsName('Bob', 'Smith' 'Flatiron', 'Manhattan'))
 ```
 
 # Let's see your results
@@ -210,7 +210,7 @@ function myStarWarsName(firstName, lastName, street, city) {
 }
 ```
 
-Add user interaction that bind the html to JS code: 
+Add user interaction that bind the html to JS code:
 
 try both submit and keyup
 
